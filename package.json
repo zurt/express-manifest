@@ -1,14 +1,14 @@
 {
-  "name": "express-manifest",
+  "name": "express-manifest-multiple",
   "version": "0.1.1",
-  "description": "Middleware which resolves requests based on generic filenames to the associated file fingerprint outlined in a manifest file.",
+  "description": "Middleware which resolves requests based on generic filenames to the associated file fingerprint outlined in a manifest file. Forked from https://github.com/zeroEvidence/express-manifest.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zeroEvidence/express-manifest.git"
+    "url": "https://github.com/zurt/express-manifest.git"
   },
   "keywords": [
     "express",
@@ -26,21 +26,21 @@
     "static"
   ],
   "author": {
-    "name": "zeroEvidence <daleamoore@gmail.com>"
+    "name": "zurt <kurt.zero@gmail.com>"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zeroEvidence/express-manifest/issues"
+    "url": "https://github.com/zurt/express-manifest/issues"
   },
-  "homepage": "https://github.com/zeroEvidence/express-manifest",
+  "homepage": "https://github.com/zurt/express-manifest",
   "dependencies": {
     "express": "^4.8.0",
     "lodash": "^3.6.0"
   },
   "maintainers": [
     {
-      "name": "zeroEvidence",
-      "email": "daleamoore@gmail.com"
+      "name": "zurt",
+      "email": "kurt.zero@gmail.com"
     }
   ]
 }
